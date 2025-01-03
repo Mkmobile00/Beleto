@@ -1,0 +1,430 @@
+@media only screen and (max-width: 1440px) {
+    body,
+    html {
+        font-size: 13px;
+    }
+
+    .header-top-right span a {
+        padding: 6px 10px 6px 10px;
+    }
+
+    .header-top-right {
+        font-size: 13px;
+    }
+    #top-bar-nav .col-sm-1 {
+        width: 5%;
+    }
+    #top-bar-nav .mid-column {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .premium_content {
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    #subscription .col-8 {
+        width: 80%;
+    }
+
+    #side__content {
+        display: none;
+    }
+
+    .dropdown .dropdown-menu {
+        width: 100%;
+        position: initial;
+    }
+
+    #video__content {
+        width: 100%;
+    }
+
+    .mid-column .header-top-left .ott-nav {
+        display: none;
+    }
+
+    #top-bar-nav .mid-column {
+        width: 0%;
+    }
+
+    .upper-links {
+        padding: 0;
+        line-height: 30px;
+    }
+
+    .sidenav a {
+        padding: 10px;
+    }
+
+    .footer-items {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .footer-items.page-list {
+        flex-wrap: nowrap !important;
+    }
+
+    #main-slider {
+        height: 460px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .video_play_list_btn a i {
+        font-size: 12px;
+        top: 7px;
+        right: 5px;
+    }
+    #subscription .col-8 {
+        width: 80%;
+    }
+
+    #subscription .col-sm-6 {
+        width: 60%;
+    }
+
+    #subscription .col-sm-2 {
+        width: 36%;
+    }
+
+    .sidenav-heading {
+        font-size: 28px;
+    }
+
+    .sidenav .closebtn {
+        top: -20px;
+    }
+
+    .main-btns .btns {
+        font-size: 12px;
+    }
+
+    .main-title::before {
+        left: 32px;
+        width: 73%;
+    }
+
+    .details_btns {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .details_btns a {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    #main-slider {
+        height: 360px;
+    }
+
+
+    .video_play_list_btn a {
+        font-size: 12px;
+        padding: 4px 16px;
+    }
+
+    #stremming img {
+        height: 260px;
+    }
+
+    #currencySetForm, #selectCurrency {
+        padding: 4px 0;
+    }
+
+
+    .content__wrapper {
+        width: 150px;
+    }
+
+    .header-top-right.d-flex.align-items-center.flex-wrap {
+        gap: 10px;;
+    }
+
+    #payment_method .payment_wrapper.mt-4 .col-8.m-auto.box-shadow-color.p-5 {
+        width: 100%;
+    }
+
+    .g-recaptcha {
+        transform: scale(0.7);
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .detail_page .d-flex.justify-content-between {
+        flex-direction: column;
+    }
+
+    .detail_page .d-flex.justify-content-between .col-4 {
+        width: 100%;
+    }
+    .detail_page .d-flex.justify-content-between .col-7 {
+        width: 100%;
+    }
+
+    #subscription .col-8 {
+        overflow-x: auto; /* Enable horizontal scrolling */
+        overflow-y: hidden; /* Disable vertical scrolling */
+        width: calc(100% - 40px); /* Set width with padding on both sides */
+        padding: 0 20px; /* Add padding on both sides */
+        white-space: nowrap; /* Prevent wrapping of content */
+    }
+
+    .content__wrapper {
+        width: 200px;
+    }
+    #subscription .col-sm-6 {
+        width: 90%;
+    }
+
+    #subscription .col-sm-2 {
+        width: 66%;
+    }
+
+    .sidenav-heading {
+        font-size: 16px;
+    }
+
+    .sidenav .closebtn {
+        font-size: 28px;
+    }
+
+    .sidenav a {
+        font-size: 16px;
+    }
+
+    .header-top-right span a {
+        padding: 4px;
+    }
+
+    .myside-button a {
+        font-size: 18px;
+    }
+
+    .header-top-right span a {
+        margin-left: 8px;
+    }
+
+    .logo a img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .info_movies .col-sm-2 {
+        width: 50%;
+    }
+
+    .info_movies .flex-wrap {
+        width: 100%;
+    }
+
+    #footer img {
+        width: 80px;
+    }
+
+    #main-slider {
+        height: 260px;
+    }
+
+    .video_play_list_btn a {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .footer-items {
+        margin: 0;
+        line-height: 20px;
+    }
+    .footer__items {
+        font-size: 14px;
+    }
+    .social-icons i {
+        margin: 0;
+        font-size: 18px;
+        margin-right: 8px;
+    }
+    .generalinfo .w-80 .d-flex.justify-content-between.align-items-center {
+        flex-direction: column;
+        text-align: start;
+        gap: 20px;
+    }
+    .social-icons {
+        margin-top: 10px;
+    }
+    .footer-items.page-list {
+        flex-wrap: wrap !important;
+    }
+
+    footer .d-flex.flex-wrap.justify-content-between.align-items-center {
+        font-size: 10px;
+    }
+
+    .otp-wrapper {
+        width: 100%;
+    }
+
+    #top-bar-nav .right-column .header-top-right{
+        /* margin-top: 5rem; */
+        font-size: 10px;
+    }
+
+    #top-bar-nav .right-column .header-top-right {
+        font-size: 8px;
+    }
+    .search-kantipur a {
+        padding: 0;
+    }
+
+    .wishlist-icon {
+        font-size: 14px;;
+        top: 10px;
+    }
+
+    .count {
+        width: 18px;
+        height: 18px;;
+        font-size: 10px;
+        top: -1px;
+        right: -1px;
+    }
+
+
+    .header-top-right.d-flex.align-items-center.flex-wrap {
+        flex-direction: row-reverse;
+    }
+
+    #formContent {
+        width: 100%;
+    }
+
+    #payment_method .payment_wrapper.mt-4 .col-8.m-auto.box-shadow-color.p-5 .col-6.m-auto.mt-5 {
+        width: 100%;
+    }
+
+    .payment_method-items.mt-4 .payment_icon {
+        width: 30px !important;
+        margin-left: 0 !important;
+    }
+    .payment_method-items.mt-4 .payment_icon img {
+        width: 30px !important;
+    }
+
+    .payment_method-items.mt-4 .radio_btn {
+        margin-right: 0 !important;
+    }
+    .payment_method-items.mt-4  .d-flex {
+        gap: 20px;;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .header-top-right {
+        font-size: 11px;
+    }
+
+    .header-top-right span a {
+        margin-left: 3px;
+    }
+
+    .social-media .col-sm-6 {
+        margin-bottom: 1rem;
+    }
+
+    .main-title h3 {
+        font-size: 16px;
+    }
+    #trending-movies {
+        margin-top: 1rem;
+    }
+
+    #main-slider {
+        height: 200px;
+    }
+
+
+    .video_play_list_btn a {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 8px;
+    }
+
+    .video_play_list_btn a i {
+        font-size: 8px;
+        top: 6px;
+    }
+    .header-top-right {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+
+    #main-slider {
+        height: 780px;
+    }
+
+    #movies img {
+        height: 406px;
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    .content__wrapper {
+        height: 220px;
+    }
+
+    #related-videos img {
+        height: 220px;
+        width: 392px;
+        object-fit: cover;
+        background-position: center center;
+    }
+    #web-series img {
+        height: 400px;
+    }
+
+    #trending-movies img {
+        height: 220px;
+    }
+
+    .mySwiper img {
+        height: 770px;
+        object-fit: cover;
+        background-position: center center;
+    }
+
+    .all_movies img {
+        width: 309px !important;
+    }
+
+    .footer-items.page-list li::after {
+        right: -10px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .g-recaptcha {
+        transform: scale(0.6);
+    }
+    #formContent {
+        padding: 20px;;
+    }
+    form input[type="text"], form input[type="password"], form input[type="email"] {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    #formContent .login_register {
+        margin: 0 !important;
+    }
+    #formContent .login_register button {
+        padding: 8px 20px;;
+    }
+
+}
